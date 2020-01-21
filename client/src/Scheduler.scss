@@ -1,0 +1,43 @@
+.Calendar {
+    // display:grid;
+    // background-color: gray;
+    // // width:200px;
+    // // height:200px;
+    // grid-template-columns: 14.2%, 14.2%, 14.2%, 14.2%, 14.2%, 14.2%, 14.2%;
+    // grid-template-rows: 30px;
+    // // grid-template-areas: ;
+    // border:solid 1px black;
+    // grid-column-gap:10px;
+    // grid-row-gap:15px;
+
+    // .itemA {
+    //     grid-column-start: 2;
+    //     border: solid 1px black;
+    // }
+    .row {
+        margin:5px;
+        padding:5px;
+        background-color: gainsboro;
+    }
+    .days {
+        background-color: lavender;
+        display: flex;
+        .col{
+            width:14%;
+        }
+    }
+}
+
+.DayPicker {
+ border: solid peachpuff 2px;
+}
+
+th, td {
+    border: solid 1px black;
+    padding: 15px;
+    width: 50px;
+}
+
+.apptSlot:hover {
+    background-color: lightgray;
+}

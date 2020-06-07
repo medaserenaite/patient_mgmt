@@ -886,6 +886,24 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
+"@fullcalendar/core@^4.3.1", "@fullcalendar/core@~4.4.0":
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/@fullcalendar/core/-/core-4.4.2.tgz#864abe98cce4497a163c01a8fc30389f15d3d4e1"
+  integrity sha512-vq7KQGuAJ1ieFG5tUqwxwUwmXYtblFOTjHaLAVHo6iEPB52mS7DS45VJfkhaQmX4+5/+BHRpg82G1qkuAINwtg==
+
+"@fullcalendar/daygrid@^4.3.0":
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/@fullcalendar/daygrid/-/daygrid-4.4.2.tgz#568bfb3c7cc97f83b57cf3aef0fa3ed1bf6eda16"
+  integrity sha512-axjfMhxEXHShV3r2TZjf+2niJ1C6LdAxkHKmg7mVq4jXtUQHOldU5XsjV0v2lUAt1urJBFi2zajfK8798ukL3Q==
+
+"@fullcalendar/react@^4.3.0":
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/@fullcalendar/react/-/react-4.4.2.tgz#f98264d72b38272a1f4a318bd745628ea754d8be"
+  integrity sha512-CObyC53Ph2wer83XOm2ae7gEDP5YuENbycetnKgXPLrUVx94hxJGo+G8lZFI4LeUG1nkecfNCpazoa3+x0yKsQ==
+  dependencies:
+    "@fullcalendar/core" "~4.4.0"
+    fast-deep-equal "^2.0.1"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -8629,6 +8647,13 @@ react-app-polyfill@^1.0.5:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
+react-day-picker@^7.4.0:
+  version "7.4.8"
+  resolved "https://registry.yarnpkg.com/react-day-picker/-/react-day-picker-7.4.8.tgz#675625240d3fae1b41c0a9d5177c968c8517c1d4"
+  integrity sha512-pp0hnxFVoRuBQcRdR1Hofw4CQtOCGVmzCNrscyvS0Q8NEc+UiYLEDqE5dk37bf0leSnBW4lheIt0CKKhuKzDVw==
+  dependencies:
+    prop-types "^15.6.2"
+
 react-dev-utils@^10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-10.0.0.tgz#bd2d16426c7e4cbfed1b46fb9e2ac98ec06fcdfa"
@@ -10721,9 +10746,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3, whatwg-encoding@^1.0.5:
   version "1.0.5"
